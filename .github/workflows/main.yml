@@ -21,5 +21,7 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: | 
-          BrendoTrindade/aula-primeira-pipeline:v${{ github.run_number }} 
-          BrendoTrindade/aula-primeira-pipeline:latest 
+          tags: | 
+            brendotrindade/aula-primeira-pipeline:v${{ github.run_number }} 
+            brendotrindade/aula-primeira-pipeline:latest
+
